@@ -6,7 +6,7 @@
 //! ```
 //! let code = "";
 //! let mut parser = tree_sitter::Parser::new();
-//! parser.set_language(&tree_sitter_nix::language()).expect("Error loading nix grammar");
+//! parser.set_language(&npezza93_tree_sitter_nix::language()).expect("Error loading nix grammar");
 //! let tree = parser.parse(code, None).unwrap();
 //! ```
 //!
